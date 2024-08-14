@@ -1,0 +1,100 @@
+body {
+    font-family: Open san-serif, montesarat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
+
+/* For headings, use Montserrat as the primary font, and fallback to sans-serif if it's not available */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+  .header-p {
+    color: #fff;
+  
+  }
+
+  .headerlink{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1)
+  }
+  
+  /*css for hgfidbjbsosjd*/
+
+  .cover-header {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color:rgba(116, 171, 250, 1);
+    padding: 70px 0;
+    width: 100%;
+    background-color: rgba(116, 171, 250, 1);
+   
+  }
+  
+  .cover-header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  .login-container {
+    width: 300px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: -50px; 
+    justify-content: space-between;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* styling for input group*/
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgba(116, 171, 250, 1);
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 30%;
+  }
+  
+  button:hover {
+    background-color: whitesmoke;
+  }
+
+  footer{
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: -40px;
+  }

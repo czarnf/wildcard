@@ -1,0 +1,187 @@
+/* Basic reset for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .image{
+  width: 50%;
+  height: 0;
+  padding-bottom: 50%;
+} */
+
+bodybody {
+  font-family: 'Open Sans', sans-serif;
+;
+  background-color: #f4f4f4;
+}
+
+.dashboard {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.quick-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns for the grid */
+  gap: 16px; /* Gap between thumbnails */
+
+}
+/* .icon-container{
+  width: 50px;
+} */
+.quick-link {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 70%;
+  height: 70%;
+  padding: 5px;
+  text-align: center;
+}
+
+.quick-link a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.quick-link img {
+  width: 100%; /* Full width inside the container */
+  height: 100%;
+  border-bottom: 1px solid #ccc; /* Adding a border at the bottom of each thumbnail */
+  object-fit: contain;
+  object-position: center;
+}
+
+.quick-link span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+}
+.backgroundFiller{
+  background-color: rgb(212, 228, 228) !important;
+}
+
+/* button {
+  font-weight: bold;
+  padding: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(177, 238, 245, 1);
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 10%;
+  height: 10%;
+  margin-top: 220px;
+  align-items: start;
+  align-content: start;
+  left: 20px;
+  top: 0px;
+  padding: 10px 15px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  position: absolute;
+}
+
+button:hover {
+  background-color: whitesmoke;
+} */
+* {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  background-color: #000
+}
+
+.card {
+  /* width: 350px; */
+  height: 500px;
+  background-color: #efefef;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.image img {
+  transition: all 0.5s
+}
+
+.card:hover .image img {
+  transform: scale(1.5)
+}
+
+.btn {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%
+}
+
+.name {
+  font-size: 22px;
+  font-weight: bold
+}
+
+.idd {
+  font-size: 14px;
+  font-weight: 600
+}
+
+.idd1 {
+  font-size: 12px
+}
+
+.number {
+  font-size: 22px;
+  font-weight: bold
+}
+
+.follow {
+  font-size: 12px;
+  font-weight: 500;
+  color: #444444
+}
+
+.btn1 {
+  height: 40px;
+  width: 150px;
+  border: none;
+  background-color: #000;
+  color: #aeaeae;
+  font-size: 15px
+}
+
+.text span {
+  font-size: 13px;
+  color: #545454;
+  font-weight: 500
+}
+
+.icons i {
+  font-size: 19px
+}
+
+hr .new1 {
+  border: 1px solid
+}
+
+.join {
+  font-size: 14px;
+  color: #a0a0a0;
+  font-weight: bold
+}
+
+.date {
+  background-color: #ccc
+}
+
+.stat:hover{
+  transform: scale(1.1)
+}
+

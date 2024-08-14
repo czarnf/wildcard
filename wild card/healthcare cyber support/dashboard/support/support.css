@@ -1,0 +1,77 @@
+img{
+  margin: 20px;
+}
+
+ 
+    
+
+
+.mapimg{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Add height and width to the container if necessary */
+  /* height: 300px; */
+  /* width: 300px; */
+  border: 1px solid #ccc; /* Adding a border for visualization */
+  height: 300px;
+  width: 300px;
+}
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .text-area-container {
+    position: absolute;
+    top: 50px; /* Adjust top position as needed */
+    right: 200px; /* Adjust right position as needed */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    width: 150px;
+    height: 20px;
+    resize: vertical;resize: horizontal; /* Allow vertical resizing */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .otherbutton {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgba(177, 238, 245, 1);
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  .backButton {
+  font-weight: bold;
+  padding: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(177, 238, 245, 1);
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 10%;
+  height: 10%;
+  margin-top: 220px;
+  align-items: start;
+  align-content: start;
+  left: 20px;
+  top: 0px;
+  padding: 10px 15px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  position: absolute;
+}
